@@ -1,0 +1,41 @@
+body{
+	font-size:25px;
+}
+.p1,.p2,.p3{
+	width: 310px;
+	height:300px;
+	border-radius:20px;
+
+}	
+a:hover{
+	text-decoration: none;
+}
+#A{
+	background-color:rgb(254,238,238);
+	padding:10px 20px;
+	box-shadow: 5px 5px 5px #ADADAD;
+	font-size:46px;
+}
+.pbtn{
+	background-color:transparent;
+	border:0;
+}
+.score{
+	position:relative;
+	top:-320px;
+	left:-90px;
+}
+.namef{
+	position:relative;
+	left:-50px;
+	top:-30px;
+}
+.name{
+	position:relative;
+	top:20px;
+}
+.row{
+	margin:0;
+	width:100%;
+}
+
