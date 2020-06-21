@@ -1,0 +1,45 @@
+body{
+	font-size:25px;
+}
+.p1,.p2,.p3{
+	width: 289px;
+	height:280px;
+	border-radius:20px;
+	transition:0.5s;
+}	
+a:hover{
+	text-decoration: none;
+}
+#A{
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size:50px;
+	margin-left:0px;
+}
+.name{
+	margin-left:10px;
+}
+.pbtn{
+	background-color:transparent;
+	border:0;
+}
+.p1:hover{
+	width:310px;
+	height:300px;
+}
+.fl{
+	background-image:url(../image/top.png);
+	background-size:contain;
+	width:200px;
+	height:118px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-100px;
+	margin-top:-59px;
+	padding-top:15px;
+}
+.row{
+	margin:0;
+	width:100%;
+}
