@@ -2,101 +2,144 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>個人網頁</title>
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="assets/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/first.css">
 	</head>
 	<body>
-		<div class="content">
-			<header>
-			<span style="margin-left:100px; font-family:'標楷體';font-size: 40px;">高婕瑀</span>
-				<nav>
-					<ul>
-						<li><a href="#study" title="" class="color">學歷背景</a></li>
-						<li><a href="#club" title="" class="color">社團活動經驗</a></li>
-						<li><a href="#club" title="" class="color">工作經驗/興趣</a></li>
-						<li><a href="#target" title="" class="color">目標</a></li>
-						<li><a href="#hope" title="" class="color">大學四年的自我期許</a></li>
-						<li><a href="#life" title="" class="color">生活紀錄</a></li>
-					</ul>
-				</nav>
-				<img src="image/leaf.png" alt="" class="banner">
-			</header>
-			<section>
-				<aside>
-					名字 : 高婕瑀<br>
-					電話 : 0911823083 <br>
-					地址 : 信實宿舍 <br>
-					E-mail : f230439524@gmail.com <br>
-					<a href="https://www.facebook.com/profile.php?id=100010007831022" title="" class="afb"><img src="image/fb.png" alt="" class="fb"></a>
-					<a href="https://www.instagram.com/l_05_24/?hl=zh-tw" title="" class="aig"><img src="image/ig.png" alt="" class="ig"></a><br>
-				</aside>
-				<article>
-					<img src="image/pic.jpg" alt="" class="mypic">
-					<div class="study">
-						<a name="study">學歷背景</a><br><br>
-						
+		<header>
+			<nav class="navbar navbar-expand-lg" >
+				<a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="" class="logo"><img src="image/name.png" alt="" class=fname></a>
+				<ul class="nav col-sm-5" id="menu">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html" style="color:black">首頁</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/range.html" style="color:black">排行</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+  						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    						產品類別
+  						</button>
+  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    						<a class="dropdown-item" href="pages/product.html#rose">玫瑰</a>
+    						<a class="dropdown-item" href="pages/product.html#lily">百合</a>
+   					 		<a class="dropdown-item" href="pages/product.html#tulip">鬱金香</a>
+   					 		<a class="dropdown-item" href="pages/product.html#daisy">雛菊</a>
+  						</div>
+		            </div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="pages/about.html" style="color:black">關於我們</a>
+				</li>
+			</ul>
+				<div class="container justify-content-end" width="700px">
+					<ul class="navbar-nav">
+						<li  class="nav-item"><form class="form-inline" action="" accept-charset="utf-8">
+							<input class="form-control" type="text" placeholder="Search">
+							<button class="btn" type="submit"><img src="image/search.png" alt="" class="search"></button>
+						</form>
+					</li>
+					<li class="nav-item dropdown ">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><button id="button"><img src="image/member.png" alt=""></button></a>
+						<div class="dropdown-menu">
+							<button class="dropdown-item" href="" id="loginform">登入</button><br>
+							<a href="pages/profile.html" title="" class="dropdown-item">個人資訊</a><br>
+							<a href="pages/orderrecord.html" title="" class="dropdown-item">訂購紀錄</a><br>
+							<a href="pages/comment.html" title="" class="dropdown-item">評價紀錄</a><br>
+							<a href="" title="" class="dropdown-item">登出</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="pages/cart.html" title="" class="nav-link"><img src="image/shopping.png" alt="" class="shopping"></a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div id="inputpsw" style="border:1px solid;">
+			<form action="" method="get" accept-charset="utf-8">
+				帳號:<input type="text" name="account" placeholder=""><br><br>
+				密碼:<input type="password" name="psw" placeholder=""><br>
+				<button type="submit" class="confirm">確認</button>
+				<a href="pages/register.html" title="" class="res">註冊</a>
+			</form>
+		</div>
+	</header>
+	<section>
 
-						<img src="image/elementary.jpeg" alt="" class="school1">
-						<span class="s1">崇德國小</span>
-						<img src="image/junior.jpg" alt="" class="school2">
-						<span class="s2">秀峰國中</span>
-						<img src="image/senior.jpg" alt="" class="school3">
-						<span class="s3">南港高中</span>
-						<img src="image/college.png" alt="" class="school4">
-						<span class="s4">中原大學</span>
-					</div>
-					<div class="row">
-						<div class="club">
-						<span class="title"><a name="club">社團活動經驗</a></span> <br>
-						國中 : 羽球社<br>
-						高中 : 點心社<br>
-						</div>
-						<div class="divide" width="20px" height="200px">
-						&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-						</div>
-						<div class="optional">
-						<span class="title">工作經驗</span>: <br>無<br>
-						<span class="title">興趣</span> : <br>看小說 , 羽球 
-						</div>
-					</div>
-					<br>
-					<div class="target">
-						<a name="target">目標:</a><br>
-						1. 找到自己喜歡的工作 <br>
-						2. 學煮菜<br>
-						3. 順利畢業<br>
-					</div>
-					<div class="hope">
-						<a name="hope">大學四年的自我期許:</a><br>
-						1. 增進英文能力<br>
-						2. 學得一技之長<br>
-						3. 不要被當<br>
-					</div>
-					<div class="picture">
-					<span class="title"><a name="life">生活紀錄</span><br>
-					<div class="left">
-						<img src="image/cat.jpg" alt="" class="cat"><br>
-						<img src="image/bbq.jpg" alt="" class="life">
-						<img src="image/work.jpg" alt="" class="life">
-					</div>
-						 <div class="right">
-						 <img src="image/dog2.png" alt="" class="dog">
-						<img src="image/dog.png" alt="" class="dog"><br>
-						<img src="image/dorm.png" alt="" class="cat">
-						 </div>
-						
 
-						
-					</div>
-				</article>
-				
-			</section>
-			<footer>
-			<hr>
-				圖片來源: <a href="https://www.lifeofpix.com/search/tree?" title="">tree</a><br>
-				 <a href="https://pngtree.com/free-backgrounds">free background photos from pngtree.com</a>
-			</footer>
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/picture.jpg" class="d-block w-100" alt="First slide" id="rowpic" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/act.png" alt="Second slide" height="400px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+		<article>
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="row text-center">
+					<div class="col-sm-6"><a href="pages/product.html#rose" title="" style="color:black">
+					<img src="image/rose.png" alt="" class="pict" id="pict"><span id="pn" style="border-style:outset;">玫瑰Rose</span></a></div>
+					<div class="col-sm-6"><a href="pages/product.html#lily" title="" style="color:black"><img src="image/lily.png" alt="" class="pict"><span id="pn" style="border-style:outset;">百合Lily</span></a></div><br>
+					<div class="col-sm-6"><a href="pages/product.html#tulip" title="" style="color:black">&nbsp;&nbsp;&nbsp;<img src="image/tulip.png" alt="" class="pict"><span id="pn" style="border-style:outset;">鬱金香Tulip</span></a></div>
+					<div class="col-sm-6"><a href="pages/product.html#daisy" title="" style="color:black">&nbsp;<img src="image/daisy.png" alt="" class="pict"><span id="pn" style="border-style:outset;">雛菊Daisy</span></a></div>		
+			</div>
+			</div>
+		</div>
 		</div>
 		
-	</body>
+			
+			
+			
+			<button type="button" id="BackTop" class="toTop-arrow" style="outline:none;"></button>
+		</article>
+	</section>
+	<footer>
+		<span class="copyright">Copyright © 2020 花的店. All rights reserved</span><span class="people">瀏覽人數:人</span>
+	</footer>
+	<script type="text/javascript" src="js/top.js"></script>
+	<script>
+			$(function () { 
+				$('#loginform').click(function (event) { 
+					event.stopPropagation(); 
+					$('#inputpsw').toggle('slow'); 
+					return false;
+				}); 
+				$(document).click(function(event){
+					var _con = $('#inputpsw'); 
+					if(!_con.is(event.target) && _con.has(event.target).length === 0){ 
+						$('#inputpsw').hide(1000); 
+					}
+				});
+			})
+			$('.carousel').carousel({
+  				interval: 2500
+			})
+		</script>
+</body>
 </html>
