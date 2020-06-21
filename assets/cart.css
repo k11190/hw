@@ -1,0 +1,28 @@
+.container-sm{
+	background-color:white;
+	font-size:30px;
+	border:1px solid;
+	margin:1px 8%;
+	padding:30px 0px;
+	word-spacing:100px;
+}
+#check{
+	position:relative;
+	top:4px;
+	left:-10px;
+}
+.delete,.buy{
+	margin-top:20px;
+	border:0;
+	background-color:transparent;
+}
+.title{
+	font-size:46px;
+	background-color:rgb(254,238,238);
+	padding:10px 20px;
+	box-shadow: 5px 5px 5px #ADADAD;
+}
+.row{
+	margin:0;
+	width:100%;
+}
