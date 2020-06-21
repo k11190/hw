@@ -1,0 +1,56 @@
+.container1{
+	border-style: dotted;
+	border:5px;
+
+}
+
+.sure{
+	margin-left:80px;
+	margin-right:50px;
+	background-color:transparent;
+	border:none;
+}
+.cancel{
+	border-radius: 10px;
+	border:1px solid;
+	font-size: 20px;
+}
+.fontgroup{
+	font-size:30px;
+	background-color:white;
+}
+.border-dotted{
+	border-style:dotted;
+}
+.container-sm{
+	padding:40px 140px;
+	margin:0px 200px;
+	font-size:30px;
+	line-height:70px;
+	background-color: rgb(254,238,238);
+	box-shadow: 10px 10px 5px #ADADAD;
+}
+.ans{
+	float:right;
+}
+.title{
+	text-align:center;
+	font-size:46px;
+}
+.shop,.back{
+	font-size:20px;
+}
+.as:link,.ab:link{
+	color:black;
+}
+.as:hover,.ab:hover{
+	color:black;
+	text-decoration:none;
+}
+.as:visited,.ab:visited{
+	color:black;
+}
+.row{
+	margin:0;
+	width:100%;
+}
