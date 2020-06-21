@@ -1,0 +1,94 @@
+body{
+	font-size:30px;
+}
+.container-sm{
+	background-color:white;
+	border:1px solid;
+	margin:1px 3%;
+	padding:30px 0px;
+	word-spacing:200px;
+}
+#check{
+	position:relative;
+	top:4px;
+	left:-10px;
+}
+#insert{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-280px;
+	margin-top:-230px;
+	z-index:2;
+	padding:10px 50px;
+	border:1px solid;
+	background-color: rgb(254,238,238);
+	border-radius:20px;
+}
+#modify{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-230px;
+	margin-top:-180px;
+	z-index:2;
+	padding:20px 30px;
+	border:1px solid;
+	background-color: rgb(254,238,238);
+	border-radius:20px;
+}
+#insertbtn{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:transparent;
+	border:3px #FFB7DD solid;
+	border-radius:20px;
+	padding:5px 10px;
+	outline:none;
+}
+#modifybtn{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:transparent;
+	border:3px #FFB7DD solid;
+	border-radius:20px;
+	padding:5px 10px;
+	outline:none;
+}
+.delete{
+	border:0;
+	background-color:transparent;
+}
+.delete:hover{
+	cursor:pointer;
+}
+#modifybtn:hover,#insertbtn:hover{
+	background-color:#FFB7DD;
+	cursor:pointer;
+	color:white;
+}
+.dropdown-menu{
+	position:relative;
+	left:-50px;
+}
+.title{
+	font-size:46px;
+}
+.sure{
+	background-color:transparent;
+	border-radius:20px;
+	margin-left:120px;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+.cancel{
+	background-color:transparent;
+	border-radius:20px;
+}
+option:hover{
+	background-color:#FFC1E0;
+}
